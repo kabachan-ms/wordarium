@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn{
+        @apply bg-g-purpule1 hover:bg-gradient-to-r from-g-purpule1 via-g-purpule2 to-g-purpule3 text-white py-2 px-4 border border-blue-700 text-xs ;
+}
+}
